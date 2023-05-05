@@ -1,0 +1,24 @@
+create database db_agenda;
+use db_agenda;
+
+create table tb_contato(
+	cod_contato int primary key not null auto_increment,
+    nome varchar(100),
+    telefone char(14),
+    celular char(15),
+    email varchar(100)
+);
+
+insert into tb_contato(nome, telefone, celular, email)
+values('Samara Ferreira', '(11) 5555-4444', '(11) 97777-8888', 'samara.ferreira27@gmail.com');
+
+select * from tb_contato;
+
+create table tb_login(
+	login varchar(30) primary key not null,
+    senha varchar(30) not null
+);
+
+insert into tb_login(login, senha) values ('adm', '123');
+
+select * from tb_login;
