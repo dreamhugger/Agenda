@@ -145,6 +145,7 @@ namespace pj_agenda
             this.btnAlterar.TabIndex = 13;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnExcluir
             // 
@@ -154,6 +155,7 @@ namespace pj_agenda
             this.btnExcluir.TabIndex = 14;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnBuscar
             // 
@@ -163,6 +165,7 @@ namespace pj_agenda
             this.btnBuscar.TabIndex = 15;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // Frm_Cadastro
             // 
@@ -184,7 +187,8 @@ namespace pj_agenda
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.lblCodigo);
             this.Name = "Frm_Cadastro";
-            this.Text = "Cadastro";
+            this.Text = "Tela de Cadastro";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

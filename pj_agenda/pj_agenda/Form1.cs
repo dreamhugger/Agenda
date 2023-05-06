@@ -27,5 +27,23 @@ namespace pj_agenda
         {
             toolStripStatusLabel1.Text = DateTime.Now.ToString();
         }
+
+        private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Cadastro cadastro = new Frm_Cadastro();
+            cadastro.MdiParent = this;
+            cadastro.Show();
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormAboutBox sobre = new FormAboutBox();
+            sobre.ShowDialog();
+        }
     }
 }

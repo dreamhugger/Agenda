@@ -9,7 +9,7 @@ namespace pj_agenda
 {
     class Cl_Conexao
     {
-        public MySqlConnection con = new MySqlConnection(@"Server=localhost;Port=3307;Database=db_agenda;User=root; Pwd=root");
+        public MySqlConnection con = new MySqlConnection(@"Server=localhost;Port=3306;Database=db_agenda;User=root; Pwd=root");
 
         public string conectar()
         {

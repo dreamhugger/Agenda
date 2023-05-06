@@ -1,7 +1,6 @@
 C:\Users\Manager\Desktop\pj_agenda\pj_agenda\bin\Debug\pj_agenda.exe.config
 C:\Users\Manager\Desktop\pj_agenda\pj_agenda\bin\Debug\pj_agenda.exe
 C:\Users\Manager\Desktop\pj_agenda\pj_agenda\bin\Debug\pj_agenda.pdb
-C:\Users\Manager\Desktop\pj_agenda\pj_agenda\bin\Debug\MySql.Data.dll
 C:\Users\Manager\Desktop\pj_agenda\pj_agenda\bin\Debug\Google.Protobuf.dll
 C:\Users\Manager\Desktop\pj_agenda\pj_agenda\bin\Debug\Zstandard.Net.dll
 C:\Users\Manager\Desktop\pj_agenda\pj_agenda\bin\Debug\K4os.Compression.LZ4.Streams.dll
@@ -24,3 +23,6 @@ C:\Users\Manager\Desktop\pj_agenda\pj_agenda\obj\Debug\pj_agenda.csproj.CoreComp
 C:\Users\Manager\Desktop\pj_agenda\pj_agenda\obj\Debug\pj_agenda.csproj.CopyComplete
 C:\Users\Manager\Desktop\pj_agenda\pj_agenda\obj\Debug\pj_agenda.exe
 C:\Users\Manager\Desktop\pj_agenda\pj_agenda\obj\Debug\pj_agenda.pdb
+C:\Users\Manager\Desktop\pj_agenda\pj_agenda\obj\Debug\pj_agenda.csproj.SuggestedBindingRedirects.cache
+C:\Users\Manager\Desktop\pj_agenda\pj_agenda\obj\Debug\pj_agenda.Frm_Cadastro.resources
+C:\Users\Manager\Desktop\pj_agenda\pj_agenda\obj\Debug\pj_agenda.FormAboutBox.resources
