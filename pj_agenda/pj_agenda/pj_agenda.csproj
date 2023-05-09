@@ -53,17 +53,24 @@
     <Compile Include="Cl_Conexao.cs" />
     <Compile Include="Cl_Contato.cs" />
     <Compile Include="Cl_ControleContato.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Cl_Login.cs" />
+    <Compile Include="Frm_Consulta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Frm_Consulta.Designer.cs">
+      <DependentUpon>Frm_Consulta.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAboutBox.cs">
+    <Compile Include="Frm_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAboutBox.Designer.cs">
-      <DependentUpon>FormAboutBox.cs</DependentUpon>
+    <Compile Include="Frm_Principal.Designer.cs">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Sobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Sobre.Designer.cs">
+      <DependentUpon>Frm_Sobre.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Cadastro.cs">
       <SubType>Form</SubType>
@@ -71,13 +78,25 @@
     <Compile Include="Frm_Cadastro.Designer.cs">
       <DependentUpon>Frm_Cadastro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.Designer.cs">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Consulta.resx">
+      <DependentUpon>Frm_Consulta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAboutBox.resx">
-      <DependentUpon>FormAboutBox.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Login.resx">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Principal.resx">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Sobre.resx">
+      <DependentUpon>Frm_Sobre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Cadastro.resx">
       <DependentUpon>Frm_Cadastro.cs</DependentUpon>
