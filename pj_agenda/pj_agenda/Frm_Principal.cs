@@ -12,6 +12,8 @@ namespace pj_agenda
 {
     public partial class Frm_Principal : Form
     {
+        Cl_ControleContato controle = new Cl_ControleContato();
+
         public Frm_Principal()
         {
             InitializeComponent();
@@ -52,6 +54,11 @@ namespace pj_agenda
         {
             Frm_Consulta consulta = new Frm_Consulta();
             consulta.ShowDialog();
+        }
+
+        private void backupToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(controle.Backup("C:\\Backup"), "Backup do Banco de Dados", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

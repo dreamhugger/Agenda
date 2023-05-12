@@ -193,5 +193,26 @@ namespace pj_agenda
             c.desconectar();
             return contato;
         }
+
+        public string Backup(string Caminho)
+        {
+            string dataAtual = DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss");
+            string CaminhoBackup = Caminho + "\\backupContatos_" + dataAtual + ".sql";
+
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(CaminhoBackup, c.con);
+                MySqlBackup mb = new MySqlBackup(cmd);
+                c.conectar();
+                mb.ExportToFile(CaminhoBackup);
+                c.desconectar();
+                return ("Backup  do banco de dados realizado com sucesso!");
+            }
+            catch (MySqlException e)
+            {
+                return (e.ToString());
+            }
+        }
+
     }
 }
