@@ -112,11 +112,15 @@ namespace pj_agenda
 
         public DataTable pesquisaCodigo(int codigo)
         {
+            //Variável de comando sql para busca de dados através de 'codigo'.
             string sql = "select cod_contato as 'Código', nome as Nome, telefone as Telefone, " +
                 "celular as Celular, email as Email from tb_contato where cod_contato = " + codigo + " ; ";
+            
+            //Varíavel de query sql.
             MySqlCommand cmd = new MySqlCommand(sql, c.con);
+            
+            //Abertura de conexão, execução da query, preenchimento da tabela, encerramento de conexão e retorno da tabela.
             c.conectar();
-
             MySqlDataAdapter da = new MySqlDataAdapter(cmd);
             DataTable contato = new DataTable();
             da.Fill(contato);
@@ -182,11 +186,15 @@ namespace pj_agenda
 
         public DataTable PreencherTodos()
         {
+            //Variável de comando sql para busca de todos os dados.
             string sql = "select cod_contato as 'Código', nome as Nome, telefone as Telefone, " +
                 "celular as Celular, email as Email from tb_contato ; ";
+                
+            //Varíavel de query sql.
             MySqlCommand cmd = new MySqlCommand(sql, c.con);
+            
+            //Abertura de conexão, execução da query, preenchimento da tabela, encerramento de conexão e retorno da tabela.
             c.conectar();
-
             MySqlDataAdapter da = new MySqlDataAdapter(cmd);
             DataTable contato = new DataTable();
             da.Fill(contato);
