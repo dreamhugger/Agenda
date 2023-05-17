@@ -222,5 +222,22 @@ namespace pj_agenda
             }
         }
 
+        public string Retore(string Caminho)
+        {
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(Caminho, c.con);
+                MySqlBackup mb = new MySqlBackup(cmd);
+                c.conectar();
+                mb.ImportFromFile(Caminho);
+                c.desconectar();
+                return ("Banco de dados restaurado com sucesso!");
+            }
+            catch (MySqlException e)
+            {
+                return (e.ToString());
+            }
+        }
+
     }
 }

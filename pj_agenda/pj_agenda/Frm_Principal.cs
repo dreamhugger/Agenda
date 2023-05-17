@@ -60,5 +60,20 @@ namespace pj_agenda
         {
             MessageBox.Show(controle.Backup("C:\\Backup"), "Backup do Banco de Dados", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void restoreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
+            openFileDialog1.Filter = "sql files (*.sql)|*.sql|All files (*.*)|*.*";
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string CaminhoBackup = openFileDialog1.FileName;
+                MessageBox.Show(controle.Retore(CaminhoBackup), "Restauração do BD",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+        }
     }
 }
