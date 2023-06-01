@@ -40,7 +40,6 @@ C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\bin\Debug\pj_agenda.exe
 C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\bin\Debug\pj_agenda.exe
 C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\bin\Debug\pj_agenda.pdb
 C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\bin\Debug\MySql.Data.dll
-C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\bin\Debug\MySqlBackup.dll
 C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\bin\Debug\Zstandard.Net.dll
 C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\bin\Debug\K4os.Compression.LZ4.Streams.dll
 C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\bin\Debug\Ubiety.Dns.Core.dll
@@ -51,3 +50,9 @@ C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\bin\Debug\System.Memory
 C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\obj\Debug\pj_agenda.csproj.CopyComplete
+C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\obj\Debug\pj_agenda.exe.config
+C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\obj\Debug\pj_agenda.csproj.ResolveComReference.cache
+C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\obj\Debug\pj_agenda.Frm_Manual.resources
+C:\Users\Manager\Desktop\Agenda-main\pj_agenda\pj_agenda\obj\Debug\pj_agenda.Frm_Relatorio.resources

@@ -75,5 +75,17 @@ namespace pj_agenda
 
             }
         }
+
+        private void manualToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Manual manual = new Frm_Manual();
+            manual.Show();
+        }
+
+        private void relatórioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Relatorio relatorio = new Frm_Relatorio();
+            relatorio.Show();
+        }
     }
 }
